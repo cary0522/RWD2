@@ -1,0 +1,12 @@
+.barsCheck{
+    display: none;
+}
+
+.hamburger{
+    position: absolute;
+    left: -500px;
+}
+
+.barsCheck:checked + .hamburger{
+    left: 0px;
+}
