@@ -8,5 +8,7 @@
 }
 
 .barsCheck:checked + .hamburger{
+    top: 30px;
     left: 0px;
+    background-color: white;
 }
