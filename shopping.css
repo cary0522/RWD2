@@ -12,3 +12,11 @@
     left: 0px;
     background-color: white;
 }
+
+.all{
+    background-color:rgba(0, 117, 0, .4);
+}
+
+.item{
+    background-image: url(https://picsum.photos/id/66/300/300);
+}
