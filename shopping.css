@@ -18,5 +18,10 @@
 }
 
 .item{
-    background-image: url(https://picsum.photos/id/66/300/300);
+    background-image: url(https://picsum.photos/id/66/400/400);
+    height: 300px;
+}
+
+.item_text{
+    writing-mode: vertical-lr;
 }
