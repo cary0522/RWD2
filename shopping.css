@@ -13,10 +13,6 @@
     background-color: white;
 }
 
-.all{
-    background-color:rgba(0, 117, 0, .4);
-}
-
 .item{
     background-image: url(https://picsum.photos/id/66/400/400);
     height: 300px;
@@ -24,4 +20,8 @@
 
 .item_text{
     writing-mode: vertical-lr;
+}
+
+td:hover{
+    background-color:rgba(0, 117, 0, .4);
 }
