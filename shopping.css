@@ -4,13 +4,24 @@
 
 .hamburger{
     position: absolute;
-    left: -500px;
+    left: -576px;
 }
 
 .barsCheck:checked + .hamburger{
     top: 30px;
     left: 0px;
     background-color: white;
+}
+
+@media screen and (min-width:576px){
+    .bar{
+        display: none;
+    }
+
+    .hamburger{
+        top: 0px;
+        left: 0px;
+    }
 }
 
 .item{
