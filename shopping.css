@@ -13,6 +13,10 @@
     background-color: white;
 }
 
+.date{
+    display: none;
+}
+
 @media screen and (min-width:576px){
     .bar{
         display: none;
@@ -21,6 +25,24 @@
     .hamburger{
         top: 0px;
         left: 0px;
+    }
+
+    .footer{
+        position: relative;
+    }
+
+    .date{
+        position: absolute;
+        display: block;
+        writing-mode: vertical-rl;
+        top: 0px;
+        right: 0px;
+    }
+
+    .year{
+        position: relative;
+        left: 86%;
+        top: 20px;
     }
 }
 
